@@ -6,7 +6,7 @@ val.value = 0;
 val.disabled = true;
 
 
-function lisiningBtn(event) {
+function listenBtns(event) {
     plus.addEventListener('click', function(){incrDecrOne("plus")});
     minus.addEventListener('click', function(){incrDecrOne("minus")});
 }
@@ -19,5 +19,5 @@ function incrDecrOne(add) {
     }
 }
 
-lisiningBtn();
+listenBtns();
 val.textContent = val;
